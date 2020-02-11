@@ -1,0 +1,30 @@
+# AWS Config
+
+variable "aws_access_key" {
+  default = "AKIA4QTFSENBBRZD2M4K"
+}
+
+variable "aws_secret_key" {
+  default = "7kzDQkw6IrsEbrPtoMS5/52s2p1wquqVvD84E4EY"
+}
+
+variable "aws_region" {
+  default = "eu-north-1"
+}
+
+variable "aws_subnet_region" {
+  default = "eu-north-1a"
+}
+
+variable "ssh_key_path" {
+  default         = "toxic.pem"
+}
+
+variable "ssh_key_name" {
+  default         = "toxic"
+}
+
+# Create a subnet to launch our instances into
+variable "environment_tag" {
+  default = "ted"
+}
